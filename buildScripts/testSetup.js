@@ -1,5 +1,5 @@
 
-const babelRegister = require('babel-register)');
+const babelRegister = require('babel-register');
 
 babelRegister();
 

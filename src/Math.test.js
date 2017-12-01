@@ -1,11 +1,8 @@
 
-import Chai from 'chai';
+import {expect} from 'chai';
 import Math from './Math';
 
-
 describe('Math test suite', () => {
-    let expect = Chai.expect;
-
     it('Add test', () => {
         let result = Math.add(10, 2);
         expect(result).to.equal(12);

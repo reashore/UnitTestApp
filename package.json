@@ -12,9 +12,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "test1": "mocha --reporter progress buildScripts.js \"src/**/*.test.js\""
+    "test1": "mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\"",
+    "test1:watch": "npm run test -- --watch"
   },
   "devDependencies": {
+    "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "jsdom": "^11.5.1",
     "mocha": "^4.0.1"
